@@ -76,12 +76,13 @@ players = [
     }
 ]
 
-# new_team = []
+new_team = []
 
-# for dict in players:
-#     new_team.append(Player(dict))
+for dict in players:
+    new_team.append(Player(dict))
 
-# print(new_team[0].age)
+# This line is just to test if it worked
+print(new_team[0].age)
 
 team1 = Player.get_team(players)
 for player in team1:
